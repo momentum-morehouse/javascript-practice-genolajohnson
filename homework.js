@@ -6,15 +6,42 @@
 //
 // If the potential member is not in the array, return the array unchanged.
 // If the potential member is in the array, remove all instances of it from the array.
+function remove (nameArray, newMember){
+    let idx = nameArray.indexOf(newMember);
+    let newArray = nameArray.filter(name ==> name !== nameArray[idx]);
+    console.log(newArray[2]);
+    return newArray;
+}
+
 
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
 
+
+//[0, 1, 2, 3]
+//nameArray[0]
+//const result = words.filter(word ==> word.length > 6)
+
 // 3. Create a function called "sum" that takes an array of numbers and
 // returns the sum of those numbers.
+function sum (numbers) {
+    let total = 0;
+    for (let number of numbers){
+        console.log(number)
+        total = total + number;
+    }
+    return total
+}
+ //map() return a new list with each item in the array
+ //1 + 2 = 3, 3 + 3 = 6, 6 + 4 = 10, 10 + 5 = 15)
 
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
+// function average (array) {
+//     const getAverage = 0;
+//     arr.array.forEach(element total += element});
+
+
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
