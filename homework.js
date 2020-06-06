@@ -7,20 +7,19 @@
 // If the potential member is not in the array, return the array unchanged.
 // If the potential member is in the array, remove all instances of it from the array.
 function remove (nameArray, newMember){
+    console.log("nameArray", nameArray)
+    console.log("newMember", newMember)
     let idx = nameArray.indexOf(newMember);
-    let newArray = nameArray.filter(name ==> name !== nameArray[idx]);
+    let newArray = nameArray.filter(name => name !== nameArray[idx]);
     console.log(newArray[2]);
     return newArray;
 }
-
 
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
 
 
-//[0, 1, 2, 3]
-//nameArray[0]
-//const result = words.filter(word ==> word.length > 6)
+
 
 // 3. Create a function called "sum" that takes an array of numbers and
 // returns the sum of those numbers.
