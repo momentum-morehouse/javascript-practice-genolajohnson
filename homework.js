@@ -6,45 +6,41 @@
 //
 // If the potential member is not in the array, return the array unchanged.
 // If the potential member is in the array, remove all instances of it from the array.
-// function remove (nameArray, newMember){
-//     console.log("nameArray", nameArray)
-//     console.log("newMember", newMember)
-//     let idx = nameArray.indexOf(newMember);
-//     let newArray = nameArray.filter(name => name !== nameArray[idx]);
-//     console.log(newArray[2]);
-//     return newArray;
-// }
+function remove (nameArray, newMember){
+    console.log("nameArray", nameArray)
+    console.log("newMember", newMember)
+    let idx = nameArray.indexOf(newMember);
+    let newArray = nameArray.filter(name => name !== nameArray[idx]);
+    console.log(newArray[2]);
+    return newArray;
+}
 
 // 2. Revisit your "remove" function. Make sure that it does not change the original
 // array but instead returns a new array.
-// function remove (newArray) {
-//     let newArray = [];
-//     for (let newArray of newArray) {
-//     return newArray;   
-// }
-
-
+function remove (newArray) {
+    let newArray = [];
+    for (let newArray of newArray) {
+    return newArray;   
+}
 
 // 3. Create a function called "sum" that takes an array of numbers and
-// returns the sum of those numbers.
-// function sum (numbers) {
-//     let total = 0;
-//     for (let number of numbers){
-//         console.log(number)
-//         total = total + number;
-//     }
-//     return total
-// }
+returns the sum of those numbers.
+function sum (numbers) {
+    let total = 0;
+    for (let number of numbers){
+        console.log(number)
+        total = total + number;
+    }
+    return total
+}
  
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
-// function average (array) {
-//     const getAverage = 0;
-//     arr.array.forEach(element total += element});
-// function average numbers (array) {
-// }
-
-
+function average (array) {
+    const getAverage = 0;
+    arr.array.forEach(element total += element});
+function average numbers (array) {
+}
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
@@ -81,9 +77,21 @@ function minimum (array)  {
 // https://courses.cs.vt.edu/csonline/Algorithms/Lessons/SelectionSort/index.html
 // to see how. This may make more sense to you.
 
+function selectionSort(array){
+    let arrayCopy = array.slice(0);
+    let minArray = array.map(selectionSort);
+        return math.min.array
+    console.log(minArr)
+        
+}
+
 // 7. Create a function called `textList` that takes an array and joins its elements
 // into a string separated by commas.
 //
 // For example, `textList(['Cadence', 'Ordel', 'Marion'])` results in the string
 // `"Cadence,Ordel,Marion"`.
-
+function textList (array){
+    let name = textList;
+    let array = [];
+    console.log(textList separated by commas)
+}
