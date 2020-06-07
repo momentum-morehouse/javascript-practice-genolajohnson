@@ -38,24 +38,24 @@
  
 // 4. Create a function called "average" that takes an array of numbers
 // and returns the average of those numbers.
-function average (array) {
-    const getAverage = 0;
-    arr.array.forEach(element total += element});
-function average numbers (array) {
-}
+// function average (array) {
+//     const getAverage = 0;
+//     arr.array.forEach(element total += element});
+// function average numbers (array) {
+// }
 
 
 
 // 5. Create a function called "minimum" that takes an array of numbers and
 // returns the smallest number in that array.
-// function minimum (array)  {
-//     let numbers = minimumNumber;
-//     let numbers = [];
-//     for (let number of numbers); {
-//         if (minimum.push(numbers));
-//     }
-//         return minimum.number
-// }
+function minimum (array)  {
+    let numbers = minimumNumber;
+    let numbers = [];
+    for (let number of numbers); {
+        if (minimum.push(numbers));
+    }
+        return minimum.number
+}
 
 // 6. There are many techniques to sort arrays in programming. Your programming
 // language will likely include the ability to do this. We are going to
